@@ -3,7 +3,7 @@
 class Admin extends CI_Controller{
 
     public function index(){
-        $this->load->view('halaman-admin/tema-admin');
+        $this->load->view('tema-admin');
     }
 }
 
