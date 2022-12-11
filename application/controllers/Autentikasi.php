@@ -11,4 +11,11 @@ class Autentikasi extends CI_Controller {
 	{
 		$this->load->view('autentikasi/register');
   }
+
+  public function login()
+	{
+    $this->form_validation->set_rules('username', 'username', 'trim|required');
+      $this->form_validation->set_rules('password', 'password', 'trim|required');
+		// $this->load->view('autentikasi/login');
+  }
 }
