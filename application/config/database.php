@@ -79,7 +79,7 @@ $db['default'] = array(
   
 	'username' => 'auser',
 	'password' => 'root',
-	'database' => 'db_konsultan',
+	'database' => 'cms_kkp',
 	
 	// 'username' => 'root',
 	// 'password' => '',

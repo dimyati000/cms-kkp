@@ -26,8 +26,9 @@
           <div class="p-4 m-3">
             <img src="<?php echo base_url() ?>assets/img/logo-kkp-removebg.png" alt="logo" style="width: 40%;" class="mover mb-4 mt-2">
             <h4 class="text-dark font-weight-normal">Welcome to <span class="font-weight-bold">Kantor Konsultan Pajak dan Hukum</span></h4>
-            <p class="text-muted">Gunakan Email dan Password Anda untuk masuk ke dalam sistem!</p>
-            <form method="POST" action="<?php echo base_url('Autentikasi/login') ?>" class="needs-validation" novalidate="">
+            <p class="text-muted">Gunakan Username/Email dan Password Anda untuk masuk ke dalam sistem!</p>
+            <?php echo $this->session->flashdata('pesan') ?>
+            <form method="POST" action="<?php echo base_url('Autentikasi/Masuk') ?>" class="needs-validation" novalidate="">
               <div class="form-group">
                 <label for="username">Username/Email</label>
                 <input id="username" type="text" class="form-control" name="username" tabindex="1" required autofocus>

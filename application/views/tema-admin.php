@@ -18,16 +18,13 @@
       <div class="navbar-bg"></div>
        <?php include('tata-letak-admin/tema-atas.php') ?>
        
-       <?php include('tata-letak-admin/tema-menu.php') ?>
+       <?php include('tata-letak-admin/tema-menu.php') ?>s
 
       <!-- Main Content -->
       <div class="main-content">
-        <section class="section">
-          <div class="section-header">
-            <h1>Dashboard</h1>
-          </div>
-          <!-- <?php include('konten') ?> -->
-        </section>
+        
+          <?php include($konten) ?> 
+        
       </div>
      
 

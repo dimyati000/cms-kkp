@@ -10,11 +10,11 @@
 
   <!-- CSS Libraries -->
   <link rel="stylesheet" href="<?php echo base_url() ?>assets/node_modules/jqvmap/dist/jqvmap.min.css">
-  <link rel="stylesheet" href="<?php echo base_url() ?>assets/node_modules/weathericons/css/weather-icons.min.css">
-  <link rel="stylesheet" href="<?php echo base_url() ?>assets/node_modules/weathericons/css/weather-icons-wind.min.css">
-  <link rel="stylesheet" href="<?php echo base_url() ?>assets/node_modules/summernote/dist/summernote-bs4.css">
-
-  <!-- Template CSS -->
+  <link rel="stylesheet" href="<?php echo base_url() ?>assets/node_modules/weather-icon/css/weather-icons.min.css">
+  <link rel="stylesheet" href="<?php echo base_url() ?>assets/node_modules/weather-icon/css/weather-icons-wind.min.css">
+  <link rel="stylesheet" href="<?php echo base_url() ?>assets/node_modules/summernote/summernote-bs4.css">
+  <link rel="stylesheet" href="<?php echo base_url() ?>assets/node_modules/summernote/summernote-bs4.js">
+  
   <link rel="stylesheet" href="<?php echo base_url() ?>assets/css/style.css">
   <link rel="stylesheet" href="<?php echo base_url() ?>assets/css/components.css">
 
