@@ -3,8 +3,10 @@
 class Admin extends CI_Controller{
 
     public function index(){
-        $this->load->view('tema-admin');
+        $data['config'] = $this->config->baca()->result(); 
+        $data['konten'] = "beranda.php";
+        $this->parser->parse('tema-admin', $data);
     }
 }
-
+    
 ?>

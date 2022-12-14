@@ -8,12 +8,12 @@
   <script src="<?php echo base_url() ?>assets/js/stisla.js"></script>
 
   <!-- JS Libraies -->
-  <script src="<?php echo base_url() ?>assets/node_modules/chart.min.js"></script>
-  <script src="<?php echo base_url() ?>assets/node_modules/simpleweather/jquery.simpleWeather.min.js"></script>
-  <script src="<?php echo base_url() ?>assets/node_modules/jqvmap/dist/jquery.vmap.min.js"></script>
-  <script src="<?php echo base_url() ?>assets/node_modules/jqvmap/dist/maps/jquery.vmap.world.js"></script>
-  <script src="<?php echo base_url() ?>assets/node_modules/summernote/dist/summernote-bs4.js"></script>
-  <script src="<?php echo base_url() ?>assets/node_modules/chocolat/dist/js/jquery.chocolat.min.js"></script>
+  <script src="<?php echo base_url() ?>node_modules/simpleweather/jquery.simpleWeather.min.js"></script>
+  <script src="<?php echo base_url() ?>node_modules/chart.js/dist/Chart.min.js"></script>
+  <script src="<?php echo base_url() ?>node_modules/jqvmap/dist/jquery.vmap.min.js"></script>
+  <script src="<?php echo base_url() ?>node_modules/jqvmap/dist/maps/jquery.vmap.world.js"></script>
+  <script src="<?php echo base_url() ?>node_modules/summernote/dist/summernote-bs4.js"></script>
+  <script src="<?php echo base_url() ?>node_modules/chocolat/dist/js/jquery.chocolat.min.js"></script>
 
   <!-- Template JS File -->
   <script src="<?php echo base_url() ?>assets/js/scripts.js"></script>
